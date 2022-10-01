@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 300px;
+    margin: 40px auto;
+    background: hsl(216, 50%, 16%);
+    border-radius: 0.5rem;
+}
+
+.cover img {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 30px;
+}
+
+.description {
+    padding: 1.5rem;
+}
+
+.title {
+    color: hsl(0, 0%, 100%);
+    margin: 1rem 0;
+    margin-top: -26px;
+    font-weight: 600;
+}
+
+.text {
+    color: hsl(215, 51%, 70%);
+
+}
+
+.timer {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.price {
+    display: flex;
+    color: hsl(178, 100%, 50%);
+
+}
+
+.price img {
+    width: 10px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.clock {
+    display: flex;
+    color: hsl(215, 51%, 70%);
+}
+
+.clock img {
+    margin-right: 5px;
+}
+
+hr {
+    background-color: hsl(215, 51%, 70%);
+}
+
+.profile-data {
+    display: flex;
+    color: hsl(0, 0%, 100%);
+    font-weight: 300;
+    margin: 1rem 0;
+}
+
+.profile-data p span {
+    color: hsl(215, 51%, 70%);
+}
+
+.profile-data img {
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+.profile-data p {
+    margin-top: 4px;
+}
